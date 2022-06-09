@@ -1,0 +1,79 @@
+Skip to content
+Product 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+chgasparoto
+/
+curso-aws-com-terraform
+Public
+Code
+Issues
+Pull requests
+Discussions
+Actions
+Projects
+Security
+Insights
+curso-aws-com-terraform/.gitignore
+@chgasparoto
+chgasparoto Course update to Terraform version v0.14 (#25)
+Latest commit 84105d3 on 11 Apr 2021
+ History
+ 1 contributor
+36 lines (33 sloc)  402 Bytes
+   
+*.dll
+*.exe
+.DS_Store
+example.tf
+terraform.tfplan
+terraform.tfstate
+bin/
+modules-dev/
+/pkg/
+website/.vagrant
+website/.bundle
+website/build
+website/node_modules
+.vagrant/
+*.backup
+./*.tfstate
+.terraform/
+*.log
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+*.iml
+
+website/vendor
+
+# Test exclusions
+!command/test-fixtures/**/*.tfstate
+!command/test-fixtures/**/.terraform/
+
+node_modules/
+*.zip
+tfplan.out
+plan.tfout
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
