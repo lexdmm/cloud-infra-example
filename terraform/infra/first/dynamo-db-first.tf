@@ -1,7 +1,7 @@
 resource "aws_dynamodb_table" "first_table" {
     name = "${var.environment}-first-table"
     hash_key = "id"
-    attribute = {
+    attribute {
         name = "id"
         type = "S"
     }
